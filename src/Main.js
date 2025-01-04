@@ -45,7 +45,7 @@ export default function Main() {
               <option>5</option>
             </select>
             <button onClick={() => handleAdd(value._id, qty)}>
-              Add to Cart 
+              Add to Cart
             </button>
           </div>
         ))}
