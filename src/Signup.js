@@ -17,6 +17,7 @@ export default function Signup() {
     const handleSignup = async () => {
       // const result = await axios.post(url,{name:name,pass:pass,email:email})
       const result = await axios.post(url,{name:user,pass:pass,email:email})
+      Navigate ("/Main");
     }
   return (
     <div>
